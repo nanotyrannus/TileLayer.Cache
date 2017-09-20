@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "es6",
         "outFile": "bin/TileLayer.Cache.js",
-        "module": "system"
+        "module": "amd"
     },
     "include": [
         "src/**/*"

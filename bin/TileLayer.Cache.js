@@ -1,13 +1,9 @@
-System.register("TileLayer.Cache", [], function (exports_1, context_1) {
+define("TileLayer.Cache", ["require", "exports"], function (require, exports) {
     "use strict";
-    var __moduleName = context_1 && context_1.id;
+    Object.defineProperty(exports, "__esModule", { value: true });
     function TileLayerCache() {
         console.warn(`TileLayerCache() called`);
     }
-    exports_1("TileLayerCache", TileLayerCache);
-    return {
-        setters: [],
-        execute: function () {
-        }
-    };
+    exports.TileLayerCache = TileLayerCache;
+    TileLayerCache();
 });
